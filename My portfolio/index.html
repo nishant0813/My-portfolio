@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Nishant</h1>
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Website Designer</p>
+                <h1>Hi, I'm <span>Nishant </span> <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------About------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/My portfolio/portfolio img/whiteshirtimg.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+                        aliquam ad quibusdam, beatae atque hic explicabo nisi corrupti repudiandae aut.
+                        Dolorem quod ipsum corrupti numquam, obcaecati aperiam debitis sunt suscipit voluptatum nam
+                        vitae praesentium tempora earum, quisquam aliquid reprehenderit. Voluptas, ratione nobis soluta
+                        quia tenetur non dolor quam vel fuga.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul>
+                            <li><span>HTML/CSS/JavaScript
+
+</Html></span><br>Designing webpage interfaces</li>
+<li><span>Web Development
+
+        </Html></span><br>Frontend Developer</li>
+</ul>
+</div>
+<div class="tab-contents" id="experiance">
+    <ul>
+        <li>Fresher</li>
+    </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>2021
+           
+                </Html></span><br> Graduated in Bachelors of arts [B.A].<br>from UNIVERSITY OF DELHI</li>
+        <li><span>2019
+
+                </Html></span><br>Website Designing training at<br> (WEB NET INFOTECH INSTITUTE DELHI)</li>
+    </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- -----------services----------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Website Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure pariatur labore quod inventore sunt
+                    velit
+                    modi nihil ipsa voluptas itaque recusandae voluptatem ducimus.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-font-awesome"></i>
+                <h2>Logo Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure pariatur labore quod inventore sunt
+                    velit
+                    modi nihil ipsa voluptas itaque recusandae voluptatem ducimus.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------Portfolio---------- -->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/My portfolio/portfolio img/mycodeweb.png" />
+                <div class="layer">
+                    <h3>Learn Web Development</h3>
+                    <p>The website help you to learn html/css/js and create your own websites.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/My portfolio/portfolio img/website ss.png"/>
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>The Website helps you how to make a portfolio website.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/My portfolio/portfolio img/amazonclone.png"/>
+                <div class="layer">
+                    <h3>Clone project</h3>
+                    <p>The website is just clone website</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------Contact------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> nishantgolu91@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9773773985</p>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <!-- ------------- link for my cv--------- -->
+                <a href="#" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Messege" rows="6" placeholder="Your Messege"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Nishant. made with <i class="fa-solid fa-heart"></i> By Nishant.</p>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+
+</html>
